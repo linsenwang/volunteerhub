@@ -1,9 +1,9 @@
 import React from 'react';
 import { Box, Typography } from '@mui/material';
 
-const SectionContainer = ({ title, children, marginTop = 6 }) => {
+const SectionContainer = ({ title, children, marginTop = 4 }) => {
   return (
-    <Box sx={{ padding: 6, textAlign: 'center', mt: marginTop }}>
+    <Box sx={{ padding: 2, textAlign: 'center', mt: marginTop }}>
       <Typography variant="h4" gutterBottom>
         {title}
       </Typography>
