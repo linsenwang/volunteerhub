@@ -1,7 +1,7 @@
 // src/App.js
 import React, { useState, useEffect } from 'react';
 import SectionContainer from '../components/SectionContainer';
-import Form from '../components/Form';
+// import Form from '../components/Form';
 import CardList from '../components/CardList';
 
 function Home() {
@@ -28,9 +28,9 @@ function Home() {
         <CardList cardData={cardData}/>
       </SectionContainer>
 
-      <SectionContainer title="Contact Us" marginTop={6}>
+      {/* <SectionContainer title="Contact Us" marginTop={6}>
         <Form />
-      </SectionContainer>
+      </SectionContainer> */}
 
       <SectionContainer title="About Us" marginTop={6}>
         {/* 其他组件 */}

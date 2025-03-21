@@ -68,3 +68,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+alias shub="rsync -avz --delete /Users/yangqian/Downloads/volunteerhub/ yangqian@47.120.35.57:/home/yangqian/Dev/volunteerhub/ && rsync -avz --delete /Users/yangqian/Downloads/volunteerhub-backend/ yangqian@47.120.35.57:/home/yangqian/Dev/volunteerhub-backend/"
